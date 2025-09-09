@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <h1 style="text-align: center; padding-top: 10%;">เข้าสู่ระบบ/ลงทะเบียน</h1>
+    <div class="log">
+        
+        <table>
+            <tr style="text-align: left;">
+                <td><select name="type" id="s1" class="but">
+                    <option value="1">เลือกประเภท</option>
+                    <option value="2">ผู้ประกอบการ</option>
+                    <option value="3">ผู้สมัครงาน </option></td>
+            </tr>
+            <tr>
+                <td><label for="Username">เลขประจำตัวประชาชน</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="เลขประจำตัว"></td>
+            </tr>
+            <tr>
+               <td><label for="Password">รหัสผ่าน</label></td>
+            </tr>
+            <tr>
+               <td><input type="password" value="รหัสผ่าน"></td>
+            </tr>
+        </table>
+        <a href="home.html"><input type="submit" value="เข้าสู่ระบบ" class="but"> </a>
+        <p>หากท่านยังไม่มีรหัสผู้ใช้งาน</p>
+        <a href="type.html"><input type="submit" value="สมัครสมาชิก" class="but"></a>
+    </div>
+</body>
+</html>
